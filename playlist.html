@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Playlsit</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- main section which has two subsection main-left and main-right -->
+    <div class="main-section">
+        <!-- section for left nav bar -->
+        <div class="main-left">
+            <img class="logo1 mt-4 mx-4" src="./assets/Spotify-logo.png" alt="logo">
+            <div class="left">
+
+                <div class="main-left-A d-flex mt-5 mx-2 align-items-center">
+                    <div class="main-left-A1 ms-4 me-4">
+                        <img src="./assets/Home.png" width="21px">
+                    </div>
+                    <div class="main-left-A2">
+                        <a href="#">Home</a>
+                    </div>
+                </div>
+                <div class="main-left-B d-flex mt-3 mx-2 align-items-center mt-1">
+                    <div class="main-left-A1 ms-4 me-4">
+                        <img src="./assets/Search.png" width="21px">
+                    </div>
+                    <div class="main-left-A2">
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+                <div class="main-left-C d-flex mt-3 mx-2 align-items-center">
+                    <div class="main-left-A1 ms-4 me-4">
+                        <img src="./assets/Your library.png" width="21px">
+                    </div>
+                    <div class="main-left-A2">
+                        <a href="#">Your Library</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="h text-light pt-5 ms-4  ">PLAYLIST</p>
+               
+                <div class="main-left-B d-flex  mx-2 align-items-center">
+                    <div class="main-left-A1 ms-4 me-4">
+                        <img src="./assets/plus.png" width="25px">
+                    </div>
+                    <div class="main-left-A2">
+                        <a href="#">Create Playlist</a>
+                    </div>
+                </div>
+                <div class="main-left-B d-flex mt-3 mx-2 align-items-center mt-1">
+                    <div class="main-left-A1 ms-4 me-4">
+                        <img src="./assets/purpleheart.png" width="25px">
+                    </div>
+                    <div class="main-left-A2">
+                        <a href="#">Liked Songs</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="left-album">
+                <img class="main-image" src="./assets/album art.png">
+            </div>
+
+        </div>
+        <!-- right section  -->
+        <div class="main-right">
+<!-- album section -->
+            <div class="play-album d-flex mt-0 ">
+                <div class="album-image">
+                    <img src="./assets/pop-rn.png">
+                </div>
+                <div class="album-details mt-5">
+                    <p class="list">PLAYLIST</p>
+
+                    <p class="head">Pop Right Now</p>
+                    <p class="lorem">Lorem ipsum dolor sit amet Lorem ipsum dolor sit,</p>
+                    <p class="likes"><span class="spoti">Spotify </span><img src="./assets/Ellipse 8.png"> 860,365 likes <img src="./assets/Ellipse 8.png"> 100 Songs, 5hr 5min</p>
+                </div>
+            </div>
+<!-- section for green paly button and more -->
+            <div class="play-button d-flex align-items-center mt-4 ">
+                <div><img src="./assets/play.png" ></div>
+                <div><img src="./assets/heart.png" style="height: 46px;"></div>
+                <div><img src="./assets/three-dot.png"></div>
+                
+            </div>
+<!-- topic section with  center line -->
+            <div class="topic mt-5">
+                <div class="border ms-5"></div>
+                <div class="heads d-flex justify-content-between ">
+                    <div class="heads1 ms-5">
+                        # TITLE
+                    </div>
+                    <div class="heads2">
+                        ALBUM
+                    </div>
+                    <div class="head3">
+                        DATE ADDED
+                    </div>
+
+                </div>
+            </div>
+<!-- first playlist section which has the similar UI to the figma -->
+            <div class="play-list ms-5 me-3 ">
+                <div class="play-list-main d-flex justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            <img src="./assets/Polygon 2.png">
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/Rectangle 9.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class=" al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class=" love d-flex align-items-center">
+                        <div class="lp me-3">
+                            <img src="./assets/Union.png">
+                        </div>
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+    
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="play-list-mainu d-flex mt-2 justify-content-between align-items-center">
+                    <div class="play-list-main1 d-flex align-items-center ">
+                        <div class="me-3">
+                            2
+                        </div>
+                        <div class="me-3">
+                            <img src="./assets/list img.png">
+                        </div>
+                        <div  class="me-3">
+                            <p>We're Good</p>
+                            <p class="play-text">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <div class="al d-flex align-items-center">
+                        <p>Future Nostalgia(The Moonlight Edition)</p>
+                    </div>
+
+
+                    <div class="data">
+                        01/08/2023
+                    </div>
+
+
+                    <div class="d-flex align-items-center">
+                        <div class="last-play d-flex align-items-center ">
+                            <img class="me-3" src="./assets/2_42.png">
+                            <img src="./assets/three-dot.png">
+                        </div>
+                    </div>
+                </div>
+               
+           
+           
+           
+           
+            </div>
+            <!-- second playlist section for differnt screen size using boot strap card -->
+            <div class="play-list-add mx-5 d-flex flex-wrap">
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 12rem; height: 15rem; margin-inline: auto;">
+                    <img src="./assets/Rectangle 9.png" class="card-img-top " alt="image" style="width: 100%; height: 100px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dua Lipa</h5>
+                      <p class="card-text text-light mb-0" style="font-size: 15px;">Future Nostalgia(The MoonLight Edition)</p>
+                      <a href="#" class="btn btn-primary ">Play</a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+<!-- bottom section which has the music player -->
+    <div class="music-player-sec d-flex flex-column">
+        <div class="music-player1-sec d-flex justify-content-between align-items-center ">
+            <div class="m1-sec d-flex align-items-center justify-content-between mt-3">
+                <div class="m1-a-sec me-3">
+                    <img src="./assets/Rectangle 9.png">
+                </div>
+                <div class="m1-b-sec me-3">
+                    <p class="text-light mb-0" style="font-weight: 500;">Hold On</p>
+                    <p class="text-light" style="font-size: 12px;">Justin Beiber</p>
+                </div>
+                <div class="m1-c-sec me-3">
+                    <img src="./assets/Union.png">
+                </div>
+                <div class="m1-d-sec">
+                    <img src="./assets/pip.png">
+                </div>
+            </div>
+
+            <div class="m2-sec d-flex flex-column align-items-center">
+                <div>
+                    <img src="./assets/shuffle.png">
+                    <img src="./assets/previous.png">
+                    <img src="./assets/gridicons_play.png">
+                    <img src="./assets/next.png">
+                    <img src="./assets/loop.png">
+                </div>
+                <div class="m2-b-sec">
+                    <img src="./assets/music-bar.png">
+                </div>
+            </div>
+            <div class="m3-sec">
+                <div>
+                    <img class="me-3" src="./assets/list.png">
+                    <img class="me-3" src="./assets/idk.png">
+                    <img src="./assets/speaker-white.png">
+                    <img src="./assets/volume-bar.png">
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
