@@ -337,10 +337,12 @@ ul>a{
         margin-bottom: 270px;
     }
     .right-C{
+        justify-content: space-around;
         align-items: center;
     }
     .major{
         align-items: center;
+        justify-content: center;
     }
     .reight-section{
         display: flex;
@@ -387,6 +389,7 @@ ul>a{
         
 }
 @media screen and (max-width:800px){
+
     .m1>div{
         display: none;
     }
@@ -397,6 +400,11 @@ ul>a{
     }
     .m2-b1,.m2-b3{
         display: none;
+    }
+    .m2{
+        align-items: end;
+        margin-right: 20px;
+        position: relative;
     }
     .head{
         font-size: 30px;
@@ -431,16 +439,17 @@ ul>a{
         justify-content: center;
     }
     .seeall{
-        font-size: 15px;
+        font-size: 12px;
 
     }
     .show{
         margin-right: 50px
     }
+    .m2-b2{
+        width: 300px;
+    }
 }
 
-@media screen and(max-width:420px){
-}
 
 
 
