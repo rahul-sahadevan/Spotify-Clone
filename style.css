@@ -159,23 +159,28 @@ ul>a{
    position: fixed;
    bottom: 0px;
    background-color: #181818;
-   /* display: none; */
+   
 }
 
 .music-player1{
+    /* display: none !important; */
     width: 100%;
 }
-.music-player2>img{
 
+.music-player2>img{
+    
     width: 100%;
+}
+.music-player2{
 }
 .mp{
+    
+    display: none !important;
     width: 100vw;
     position: fixed;
-    bottom: 0px;
     height: 15vh;
+    bottom: 0px;
     background-color: #181818;
-    display: none;
    
 }
 .nav{
@@ -458,21 +463,21 @@ ul>a{
         display: block;
         margin-top: 15px;
     }
-     .music-player{
+     .music-player>div{
         /* height: 15vh;
         align-items: center;
         justify-content: center; */
-        display: none;
+        display: none !important;
     } 
     .mp{
-        display: block;
+        display: block !important;
     }
-    .music-player-sec{
-        overflow: hidden;
+    .music-player-sec>div{
+       display: none !important;
 
     }
     .mp-sec{
-        display: block;
+        display: block !important;
         height: 17vh;
     
     }
