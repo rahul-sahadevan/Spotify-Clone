@@ -31,7 +31,7 @@ a:hover{
     display: none;
 } 
 .left-A{
-    width: 100%;
+    width: 257px;
     background-color: #282828;
     border-radius: 2px;
     height: 60px;
@@ -87,6 +87,9 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 100px;
   
+}
+.seeall{
+    font-size: 17px;
 }
 .major{
     width:100%;
@@ -265,7 +268,7 @@ ul>a{
 .play-button>div{
     margin-right: 20px;
 }
-.topic{
+.topics{
     position: relative;
 }
 .border{
@@ -308,7 +311,7 @@ ul>a{
 .love{
     padding-right: 10px;
 }
-.play-list{
+.play-lists{
     overflow-x: scroll;
 }
 .music-player-sec{ 
@@ -384,7 +387,7 @@ ul>a{
         
 }
 @media screen and (max-width:800px){
-    .m1-c{
+    .m1>div{
         display: none;
     }
     .m1{
@@ -406,10 +409,10 @@ ul>a{
         flex-wrap: wrap;
         align-items: center;
     }
-    .play-list{
+    .play-lists{
         display: none;
     }
-    .topic{
+    .topics{
         display: none;
     }
     .play-list-add{
@@ -419,8 +422,26 @@ ul>a{
         display: block;
         margin-top: 15px;
     }
-    
+     .music-player{
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    } 
+    .m2{
+        justify-content: center;
+    }
+    .seeall{
+        font-size: 15px;
+
+    }
+    .show{
+        margin-right: 50px
+    }
 }
+
+@media screen and(max-width:420px){
+}
+
 
 
 
