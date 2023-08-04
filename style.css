@@ -18,6 +18,9 @@
 a:hover{
    text-shadow:0.5px 0px 0px white;
 }
+img:hover{
+    opacity: 0.5;
+}
 
 
 /* css for left section */
@@ -53,8 +56,10 @@ a:hover{
 }
 .right-A2{
     background-color: #0A0A0A;
-    border-radius: 40%;
+    border-radius: 40px;
     padding: 2px;
+    width: 150px;
+    justify-content: space-between;
 }
 .right-B{
     /* border: solid red; */
@@ -403,6 +408,10 @@ ul>a{
         display: flex;
         flex-direction: column;
     }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
     .m3{
         display: none;
     }
@@ -488,8 +497,10 @@ ul>a{
         font-size: 12px;
 
     }
+    
     .show{
-        margin-right: 50px
+        margin-right: 50px;
+        margin-left:0px;
     }
     .m2-b2{
         width: 300px;
