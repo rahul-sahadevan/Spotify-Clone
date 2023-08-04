@@ -506,6 +506,14 @@ ul>a{
         width: 300px;
     }
 }
+@media screen and (max-width:474px){
+    .show{
+        font-size: 17px;
+    }
+    .seeall{
+        font-size: 10px;
+    }
+}
 
 
 
